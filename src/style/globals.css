@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .articles {
+    @apply bg-white text-center  md:text-start      flex flex-col gap-[20px]  pt-[80px]   px-[25px] md:pt-[80px]  md:pb-[50px] md:px-[50px]   z-10 relative rounded-lg;
+  }
+
+  .hero-section{
+    @apply pb-[200px] flex lg:flex-row flex-col   items-center  max-w-[1440px] mx-auto gap-5 md:gap-10  md:py-[130px] px-[30px] md:ps-[170px]
+  }
+}
+
+body {
+  font-family: var(--poppins);
+}
+
+h1 {
+  font-family: var(--font-poppins_bold);
+  font-weight: 700;
+}
+
+#section-contentTwo {
+  background-image: url(../images/bg-boost-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#bg-short {
+  background-image: url(../images/bg-shorten-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+ul li a {
+  color: gray;
+}
+nav ul li a {
+  color: white;
+}
+/* nav ul li a:hover {
+  color: hsl(180, 66%, 49%);
+} */
+
+ul li a:hover {
+  color: hsl(180, 66%, 49%);
+}
+
+footer div a:hover {
+  color: hsl(180, 66%, 49%);
+}
+
+@media only screen and (min-width: 768px) {
+  #section-contentTwo {
+    background-image: url(../images/bg-boost-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(59, 37, 80);
+  }
+
+  #bg-short {
+    background-image: url(../images/bg-shorten-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
