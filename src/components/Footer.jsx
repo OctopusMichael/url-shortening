@@ -12,26 +12,21 @@ const Footer = () => {
   return (
     <section className="bg-veryDarkViolet">
       <footer className="  md:text-start flex flex-col md:flex-row max-w-[1440px] mx-auto justify-between items-center md:items-start text-center px-30 md:px-[170px] py-[50px] md:py-[100px">
-        <div className="my-[50px] md:my-[0px]" >
+        <div className="my-[50px] md:my-[0px]">
           <a href="#">
-            {" "}
             <Image
-              className="w-[100px] h-auto"
+              className="w-[100px] "
               priority={true}
               src={logoInvertido}
               width={100}
               height={100}
               alt="imgFooter"
-            />{" "}
+            />
           </a>
         </div>
         <div className="flex flex-col md:flex-row gap-[80px] ">
           <ul className="flex flex-col  gap-2">
-            <li className="text-white font-bold ">
-             
-                Features
-            
-            </li>
+            <li className="text-white font-bold ">Features</li>
             <li>
               <a href="#"> Link Shortening</a>
             </li>
@@ -43,9 +38,7 @@ const Footer = () => {
             </li>
           </ul>
           <ul className="flex flex-col  gap-2">
-            <li className=" text-white font-bold ">
-              Resources
-            </li>
+            <li className=" text-white font-bold ">Resources</li>
             <li>
               <a href="#">Blog</a>
             </li>
@@ -57,9 +50,7 @@ const Footer = () => {
             </li>
           </ul>
           <ul className="flex flex-col  gap-2">
-            <li className="text-white font-bold ">
-              Company
-            </li>
+            <li className="text-white font-bold ">Company</li>
             <li>
               <a href="#">About</a>
             </li>

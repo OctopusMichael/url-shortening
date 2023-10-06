@@ -109,7 +109,7 @@ const Content = () => {
                 className=" gap-3  py-[20px] h-auto md:h-[70px]  px-[20px] mx-auto mt-[20px]  flex md:flex-row flex-col  justify-between items-start md:items-center rounded-lg bg-white text-black "
               >
                 <p className="text-black text-start">{element.original}</p>
-                <div className="flex flex-col w-full md-w-auto  md:flex-row  items-start   md:items-center gap-2 md:gap-10">
+                <div className="flex flex-col  w-full md:w-auto md:flex-row  items-start   md:items-center gap-2 md:gap-10">
                   <p className="text-cyan ">{element.new}</p>
                   <button
                     onClick={() => handleCopy(element.new, element.id)}
