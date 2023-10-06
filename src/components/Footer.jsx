@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="my-[50px] md:my-[0px]">
           <a href="#">
             <Image
-              className="w-[100px] "
+              className="w-[100px] filter invert "
               priority={true}
               src={logoInvertido}
               width={100}
