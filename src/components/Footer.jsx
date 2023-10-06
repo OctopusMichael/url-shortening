@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logoInvertido from "../images/logoInvertido.svg";
+import logoInvertido from "../images/logo.svg";
 import {
   FaFacebook,
   FaInstagram,
